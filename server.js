@@ -58,3 +58,5 @@ function randomImageHandler(request, response) {
 
 app.use(errorHandler);
 app.listen(port, console.log(`Listening to port ${port}`));
+
+module.exports = app;
